@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Advanced Search</title>
+        <meta charset="utf-8">
+        <meta name=viewport content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    </head>
+    <style>
+        html,body{
+            height:100%;
+            margin:0;
+        }
+        .ref {
+            border: 5px solid white;
+            width: 150px;
+            text-align: right;
+            margin-top: 5px;
+            float: right;
+            width: 100%;
+        }
+        .ref_lo {
+            margin-top: 0px;
+            float: left;        
+        }
+        .abs-center {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            clear: right;
+            width: auto;
+            height: 40px;
+            background-color: #4d90fe;
+            border: 1px solid #3079ed;
+            color: #fff;
+            border-radius: 2px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .filler {
+            height: 180px;
+            width: 100%;
+        }
+        .tit_data {
+            margin: 5px;
+            margin-top: : 40px;
+            margin-bottom: 40px;
+            margin-left: 0px;
+            margin-right: 0px;
+        }
+        .in1_st {
+            margin-left: 95px;
+            width: 50%;
+        }
+        .in2_st {
+            margin-left: 20px;
+            width: 50%;
+        }
+        .in3_st {
+            margin-left: 80px;
+            width: 50%;
+        }
+        .in4_st {
+            margin-left: 60px;
+            width: 50%;
+        }
+    </style>
+    <body>
+        <div class="container-fluid">
+
+                <div class="row">
+                    <div class="col-lg-12 ref">
+                        <img class="ref_lo" src=google_logo_img.png alt="LogoGoogleImg" width="100">
+                        <div id="adv_chr">
+                            <a href="index.html">Back to Search</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 cab tit_data">
+                        <h3>Advanced Search</h3>
+                    </div>                 
+                    <div class="col-lg-12 tit_data">
+                        <h3>Find Pages With</h3>
+                    </div>   
+                    <div class="col-lg-12 tit_data">
+                        <form action="https://google.com/search">
+                            <h6>All these words<input type="text" name="as_q" class="in1_st"></h6>
+                            <br><br>
+                            <h6>This exact word or phrase<input type="text" name="as_epq" class="in2_st"></h6>
+                            <br><br>
+                            <h6>Any of this words<input type="text" name="as_oq" class="in3_st"></h6>
+                            <br><br>
+                            <h6>none of these words<input type="text" name="as_eq" class="in4_st"></h6>
+                            <br><br>
+                            <input type="submit" value="Advanced Search" class="abs-center">
+                        </form>
+                    </div>
+                    <div class="col-lg-12 filler">
+                    </div>
+                    <div class="col-lg-12 filler"></div>
+                </div>
+
+
+        </div>
+    </body>
+</html>
