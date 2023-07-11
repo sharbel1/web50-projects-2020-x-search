@@ -1,90 +1,29 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <title>Search</title>
-        <meta charset="utf-8">	
-        <meta name=viewport content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    </head>
-    <style>
-    	html,body{
-			height:100%;
-			margin:0;
-		}
-		.ref {
-			border: 5px solid white;
-			width: 150px;
-			text-align: right;
-			margin-top: 5px;
-			float: right;
-			width: 100%;
-		}
-		.cas_in {
-			display: flex;
-			box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
-    		border-color: rgba(223,225,229,0);
-    		border-radius: 24px;
-    		height: 44px;
-    		width: 40%;
-    		margin-left: auto;
-            margin-right: auto;
-		}
-		.abs-center {
-			display: flex;
-			justify-content: center;
-		}
-		.two-button {
-            margin: 4px;
-            border: 1px solid #f2f2f2;
-            border-radius: 4px;
-            font-size: 14px;
-            height: 36px;
-            min-width: 54px;
-            padding: 0 16px;
-            font-family: arial,sans-serif;
-		}
-		.filler {
-			height: 180px;
-			width: 100%
-		}
-		#img_chr {
-            margin-right: 20px;
-            width: 100px;
-            float: right;
-        }
-        #adv_chr {
-            margin-right: 20px;
-            width: 150px;
-            float: right;
-        }
-	</style>
-	<body>
-		<div class="container-fluid">
-			<div class="row">
-		    	<div class="col-lg-12 ref">
-		    		<div id="adv_chr">
-		    			<a href="advanced_search_new.html">Advanced Search</a>
-		    		</div>
-		    		<div id="img_chr">
-		    			<a href="images.html">Images</a>
-		    		</div>
-		    	</div>    
-	    		<div class="col-lg-12 filler"></div>
-	    		<div class="col-lg-12 abs-center">
-			    	<img src="google_logo.png" alt="LogoGoogle" width="400">
-			    </div>
-			    <div class="col-lg-12">
-					<form action="https://google.com/search">
-    					<input type="text" name="q" class="cas_in">
-    					<br>
-    					<div class="abs-center">
-        					<input type="submit" name="btnK" value="Google Search" class="two-button">
-        					<input type="submit" name="btnI" value="I am Feeling Lucky" class="two-button">
-    					</div>
-					</form>	
-				</div>
-				<div class="col-lg-12 filler"></div>
-		    </div>
-	    </div>
-    </body>
+<DOCTYPE html>
+<html lang="eng">
+<head>
+	<title>Google Search</title>
+	<link rel="stylesheet"
+	href="styles.css">
+</head>
+<body>
+	<div class="nav">
+		<a href="image_search.html">image search</a>
+	<a href="advenced_search.html">advenced search</a>
+</div>
+<form action="https://www.Google.com/search">
+	<input type="text" name="q"
+	class="search-bar">
+	<br>
+	<input type="submit"
+	value="Google search"
+	class="search-button">
+	<input type="submit" 
+     value="i'm feeling lucky" 
+	class="lucky-button" 
+	name="btnl">
+</form>
+</body>
 </html>
+
+
+
